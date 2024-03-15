@@ -1,0 +1,27 @@
+[editor]
+line-number = "relative"
+cursorline = true
+auto-save = true
+bufferline = "always"
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "none"
+
+[editor.statusline]
+left = [ "mode", "spinner", "diagnostics" ]
+center = [ "file-name", "separator", "version-control", "separator" ]
+right = [ "position", "position-percentage", "total-line-numbers" ]
+separator = "│"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+X = "extend_line_above" # Shift+x to select the whole line above
