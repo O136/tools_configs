@@ -6,7 +6,6 @@ color-modes = true
 bufferline = "always"
 gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 
-
 [editor.whitespace.render]
 space = "all"
 tab = "all"
