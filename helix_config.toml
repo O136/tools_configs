@@ -1,8 +1,11 @@
 [editor]
+popup-border = "all"
 line-number = "relative"
-cursorline = true
 auto-save = true
+color-modes = true
 bufferline = "always"
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+
 
 [editor.whitespace.render]
 space = "all"
