@@ -16,5 +16,5 @@ __prompt_command() {
         EXIT="${Red}$EXIT${RCol}"        # Add red if exit code non 0
     fi
 
-    PS1+="$EXIT ]-[ \j ]\n└─ "
+    PS1+="$EXIT ]-[ \j ]\n└─ "          # or use ▶ for non nerd fonts
 }
